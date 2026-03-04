@@ -1,0 +1,10 @@
+Suchen
+find -E "/Users/joachimthomas/Finanzverwaltung/Archiv/TradeRepublic/Cash/Kontobewegungen_JSON" -type f -regex ".*_[0-9]{1,2}\.json$"
+find -E "/Users/joachimthomas/Documents/Joachim privat/Banken/Trade Republic/Auszüge" -type f -regex ".*_[0-9]{1,2}\.pdf$"
+find -E "/Users/joachimthomas/Finanzverwaltung/Archiv" -type f -regex ".*_[0-9]{1,2}\.csv$"
+
+Löschen
+
+find -E "/Users/joachimthomas/Finanzverwaltung/Archiv/TradeRepublic/Cash/Kontobewegungen_JSON" -type f -regex ".*_[0-9]{1,2}\.json$" -delete
+find -E "/Users/joachimthomas/Documents/Joachim privat/Banken/Trade Republic/Auszüge" -type f -regex ".*_[0-9]{1,2}\.pdf$" -delete
+find -E "/Users/joachimthomas/Finanzverwaltung/Archiv" -type f -regex ".*_[0-9]{1,2}\.csv$" -delete
