@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>de.joachimthomas.trcash.zins</string>
+
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Users/joachimthomas/Finanzverwaltung/Programme/Traderepublic/TradeRepublic-Cash/Zins/tr_zins_run.sh</string>
+    </array>
+
+    <key>WatchPaths</key>
+    <array>
+      <string>/Users/joachimthomas/Documents/Joachim privat/Banken/Trade Republic/INBOX_ZINS</string>
+    </array>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/joachimthomas/Finanzverwaltung/Programme/Logs/TradeRepublic-Cash/tr_zins_launchd.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/joachimthomas/Finanzverwaltung/Programme/Logs/TradeRepublic-Cash/tr_zins_launchd.err.log</string>
+  </dict>
+</plist>
